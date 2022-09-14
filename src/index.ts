@@ -1,5 +1,4 @@
 import { createApp } from "vue"
-import Wbutton from "./button"
-import SFCButton from "./SFCButton.vue"
-import JSXButton from "./JSXButton"
-createApp(JSXButton).mount("#app")
+import 'uno.css'
+import temp from "./temp.vue"
+createApp(temp).mount("#app")
