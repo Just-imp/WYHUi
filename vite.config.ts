@@ -24,5 +24,11 @@ export default defineConfig({
             // 导出模块格式
             formats: ["es", "umd", "iife"],
         },
+        cssCodeSplit: true,//分离CSS样式单独引用
     },
+    server:{
+        host:'0.0.0.0',//开启所有服务器
+        port:7777,
+        open:true,
+    }
 })

@@ -2,7 +2,9 @@
   "compilerOptions": {
     "declaration": true /* 生成相关的 '.d.ts' 文件。 */,
     "declarationDir": "./dist/types" /* '.d.ts' 文件输出目录 */,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "lib":["ES2015","DOM"],
+    "resolveJsonModule": true
   },
   "include": ["./**/*.*", "./shims-vue.d.ts"],
   "exclude": ["node_modules"],
