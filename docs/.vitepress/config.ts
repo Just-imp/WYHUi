@@ -1,17 +1,12 @@
 const sidebar = {
   '/': [
-    { text: '快速开始', link: '/' },
+    //{ text: '快速开始', link: '/' },
     {
       text: '通用',
-      children: [
+      items: [
         { text: 'button', link: '/components/button' },
       ]
     },
-    { text: '导航' },
-    { text: '反馈' },
-    { text: '数据录入' },
-    { text: '数据展示' },
-    { text: '布局' },
   ]
 }
 const config = {
@@ -28,7 +23,3 @@ const config = {
   }
 }
 export default config
-
-/* module.exports = {
-
-} */

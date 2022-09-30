@@ -54,6 +54,7 @@ export default defineComponent({
                 ${props.disabled ? 'cursor-not-allowed' : 'cursor-pointer'}
                 ${props.icon && slots.default ? 'pl-1 pr-4' : 'px-4'}
                 ${props.disabled ? 'opacity-50' : ''}
+                mr-4
                `}
             >
                 {props.icon && !props.loading && <i class={`i-ic-baseline-${props.icon} p-3 ${slots.default ? 'mr-1' : ''}`}></i>}
